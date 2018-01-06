@@ -8,7 +8,6 @@ class TechSchema extends Schema {
       table.increments()
       table.string('name', 40).notNullable().unique()
       table.string('icon', 80).notNullable()
-      table.timestamps()
     })
   }
 
